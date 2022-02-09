@@ -42,4 +42,4 @@
 *.nix
 .replit
 Makefile
-.ccls-cache
+/.ccls-cache
