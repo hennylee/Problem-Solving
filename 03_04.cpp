@@ -4,7 +4,7 @@ using namespace std;
 int main_03_04() {
 
   int N, K;
-  int cnt;
+  int cnt = 0;
 
   cin >> N >> K;
 
