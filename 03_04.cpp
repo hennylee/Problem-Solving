@@ -1,10 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int main0304() {
+int main_03_04() {
+
   int N, K;
   int cnt;
-  
+
   cin >> N >> K;
 
   while(N != 1){

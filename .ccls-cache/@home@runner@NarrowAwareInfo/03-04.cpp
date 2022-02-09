@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-  
-  int N, K;
-  int cnt = 0;
+int N, K;
+int cnt;
+
+int main0304() {
 
   cin >> N >> K;
 

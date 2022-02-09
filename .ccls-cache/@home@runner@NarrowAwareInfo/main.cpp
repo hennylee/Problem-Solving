@@ -2,9 +2,10 @@
 using namespace std;
 
 int main() {
+  
   int N, K;
   int cnt;
-  
+
   cin >> N >> K;
 
   while(N != 1){
