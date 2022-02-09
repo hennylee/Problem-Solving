@@ -43,3 +43,5 @@
 .replit
 Makefile
 /.ccls-cache
+main
+main.cpp
