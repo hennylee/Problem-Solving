@@ -1,7 +1,7 @@
 /***********************
 * date : 2022-02-21
 * topic : greedy
-* feedback : 
+* feedback : 최소값 구할때, MIN()함수 쓰면 편하다!
 * time : 30min
 ************************/
 
@@ -38,9 +38,11 @@ int main_11_03()
   }
 
   // 0과 1의 갯수 중 최소값이 최소 횟수
+  /*
   if(zcnt < ocnt) cout << zcnt;
   else cout << ocnt;
-  
+  */
+  cout << min(zcnt, ocnt);
   return 0;
 }
 
