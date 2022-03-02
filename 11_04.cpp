@@ -2,7 +2,7 @@
  * date : 2022-02-21
  * topic : greedy
  * feedback :
- * time : 90 min
+ * time : 60 min
  ************************/
 
 #include <iostream>
@@ -15,7 +15,7 @@ vector<int> coins; // 입력받은 동전
 vector<int> used; // 사용한 동전 표시
 vector<int> total; // (1~ 총합) DAT
 
-void getsum(int level, int sum)
+void getsum_11_04(int level, int sum)
 {
   if(level == n)
   {
@@ -28,13 +28,13 @@ void getsum(int level, int sum)
     if(total[sum + coins[x]] == 1) continue; // 이미 구해진 합이면 pass
     total[sum + coins[x]] = 1; // 동전합 표시
     used[x] = 1; // 사용여부 표시
-    getsum(level + 1, sum + coins[x]); // 동전합 구하기
+    getsum_11_04(level + 1, sum + coins[x]); // 동전합 구하기
     used[x] = 0; // 사용여부 초기화
   }
 }
 
 
-int main() 
+int main_11_04() 
 { 
   int sum = 0; // 전체 동전의 합
   
@@ -51,7 +51,7 @@ int main()
   
   total.assign(sum + 1, 0); // 동전의 합만큼 0으로 채운 vector 생성
   
-  getsum(0, 0); // 재귀함수 호출
+  getsum_11_04(0, 0); // 재귀함수 호출
 
   // 최소로 안나온 동전합 출력
   for(int x=1;x<sum + 1;x++)
