@@ -1,3 +1,10 @@
+/***********************
+ * date : 2022-03-02
+ * topic : greedy
+ * feedback :
+ * time : 30 min
+ ************************/
+
 #include<iostream>
 #include<vector>
 using namespace std;
