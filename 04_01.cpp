@@ -1,5 +1,5 @@
 /***********************
- * date : 2022-03-31
+ * date : 2022-04-05
  * topic : 구현
  * feedback : 
  *  1. 공간을 벗어나는 경우 고려 x 
@@ -12,7 +12,7 @@
 #include <string>
 using namespace std;
 
-int main()
+int main_04_01()
 {
   // 입력 받기
   int cnt;
