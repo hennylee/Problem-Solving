@@ -10,7 +10,7 @@
 
 #include<iostream>
 using namespace std;
-int main()
+int main_04_02()
 {
   // 시간 입력 받기
   int hour;
